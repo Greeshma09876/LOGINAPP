@@ -1,0 +1,81 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:right ;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin-top: 20px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+/* ... existing styles ... */
+
+nav {
+  background-color: #474444;
+  padding: 10px;
+  text-align: right;
+  
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 15px;
+  color: rgb(247, 241, 241);
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+h2{
+  color: aqua;
+}
+
+
